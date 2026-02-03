@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Jyotika</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="effects/effects.css" />
+</head>
+
+<body>
+
+  <!-- COUNTDOWN -->
+  <section class="section active" id="countdown">
+    <h1 id="timer">00 : 00 : 00 : 00</h1>
+    <p>Something made just for you</p>
+  </section>
+
+  <!-- WELCOME -->
+  <section class="section" id="welcome">
+    <h1>Happy Birthday Jyotika</h1>
+    <p>Today is yours.</p>
+    <button onclick="nextSection()">Enter</button>
+  </section>
+
+  <!-- HER WORLD -->
+  <section class="section" id="world">
+    <h2>Her World</h2>
+    <p>Her world isn’t loud — it’s layered.
+
+It’s made of small details most people miss:
+the way silence can feel comforting,
+the way certain songs stay longer than conversations,
+the way thoughts run deep even when words are few.
+
+She notices things.
+Not just what’s said, but what’s meant.
+Not just what’s shown, but what’s felt.
+There’s a quiet intelligence in how she understands people
+and an even quieter strength in how she chooses herself.
+
+Her world values calm over chaos,
+meaning over noise,
+and honesty over performance.
+
+She grows steadily — not for applause,
+but because becoming better feels natural to her.
+And even on days when she doubts herself,
+there’s something unwavering in her —
+a sense of direction that doesn’t need explaining.
+
+This is her world.
+Thoughtful. Soft-edged. Strong.</p>
+    <button onclick="nextSection()">Next</button>
+  </section>
+
+  <!-- MOMENTS -->
+  <section class="section" id="moments">
+    <h2>Moments</h2>
+    <p class="hint">I Wish You Always Keep Smiling Like This</p>
+
+    <div class="cards">
+      <div class="card" onclick="flip(this)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/images/memory1.jpg" alt="Memory 1">
+          </div>
+          <div class="card-back">
+            <video src="assets/videos/memory1.mp4" playsinline></video>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" onclick="flip(this)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/images/memory2.jpg" alt="Memory 2">
+          </div>
+          <div class="card-back">
+            <video src="assets/videos/memory2.mp4" playsinline></video>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" onclick="flip(this)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/images/memory3.jpg" alt="Memory 3">
+          </div>
+          <div class="card-back">
+            <video src="assets/videos/memory3.mp4" playsinline></video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="nextSection()">Click on Image</button>
+  </section>
+
+  <!-- LETTER -->
+  <section class="section" id="letter">
+    <h2>A Note For You Jyotika</h2>
+    <p class="letter">
+      On your birthday, I hope you give yourself a moment that asks nothing of you.
+Not reflection. Not evaluation. Just stillness — the kind where you can breathe and simply be.
+There’s a quiet strength in the way you exist.
+You don’t need to announce yourself to be noticed, and you don’t need noise to feel complete.
+You think deeply, you feel honestly, and you move through the world with a kind of grace that isn’t loud, but lasting.
+I hope this year brings you more than milestones.
+I hope it brings you ease.
+Mornings that arrive gently.
+Evenings that feel unforced.
+People who meet you where you are, without asking you to be anything else.
+May you continue becoming yourself — not faster, not slower, but truer.
+May you trust your instincts, protect your peace, and choose paths that feel calm on the inside, even if they don’t always make sense to others.
+You deserve kindness — especially the kind you give yourself.
+You deserve rest without explanation, joy without justification, and love that doesn’t feel like pressure.
+      <br><br>
+      Somewhere in the world, there is someone who wishes you well today — quietly, without expectations — simply because your existence makes the world a little softer.
+Let that be enough.
+Happy Birthday.
+May the year ahead be gentle, steady, and kind to you.
+    </p>
+    <button onclick="nextSection()">Next</button>
+  </section>
+
+  <!-- FINAL -->
+  <section class="section" id="final">
+    <h1>Happy Birthday Jyotika</h1>
+    <p>Wherever life takes you next,
+I hope it treats you gently.</p>
+  </section>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+  <script src="effects/effects.js"></script>
+
+</body>
+</html>
